@@ -1,0 +1,110 @@
+<html>
+        <div style="background-color:#0f5aa4">
+          <h1><font color="white">新伊丹駅発</font></h1>
+          <h2><font color="white">塚口行き時刻表(平日通学時)</font></h2>
+        </div>
+        <table border="5" bordercolor="#0f5aa4">
+            <body>
+                <tr>
+                    <td>
+                <p id="Clock1" style="display: inline"></p>
+        <script type="text/javascript">
+        setInterval('showClock1()',1000);
+        function showClock1() {
+        var DWs = new Array('日','月','火','水','木','金','土');
+        var Now = new Date();
+        var YY = Now.getYear();
+        if (YY < 2000) { YY += 1900; }
+        var MM = set0( Now.getMonth() + 1 );
+        var DD = set0( Now.getDate() );
+        var DW = DWs[ Now.getDay() ];
+        var hh = set0( Now.getHours() );
+        var mm = set0( Now.getMinutes() );
+        var ss = set0( Now.getSeconds() );
+        var RTime1 ='現在時刻は' + hh + '時' + mm + '分' + ss + '秒';
+        document.getElementById("Clock1").innerHTML = RTime1;
+        }
+        function set0(num) {
+        var ret;
+        if( num < 10 ) { ret = "0" + num; }
+        else { ret = num; }
+        return ret;
+        }
+        </script>
+                    </td>
+                </tr>
+        </body>
+        </table>
+<table border="1">
+    <body>
+        <tr>
+            <td>6:06　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　塚口</font></td>
+            <td>6:32　六甲駅着</td>
+        </tr>
+        <tr>
+            <td>6:17　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　塚口</font></td>
+            <td>6:54　六甲駅着</td>
+        </tr>
+        <tr>
+            <td>6:27　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　塚口</font></td>
+            <td>6:54　六甲駅着（六甲駅へは塚口で<span style="background-color:#ff0000"><span style="color:#fff">通勤特急</span></span>に乗車の上西宮北口で後の普通に乗り換え）</td>
+        </tr>
+        <tr>
+            <td>6:42　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　塚口</font></td>
+            <td>7:09　六甲駅着</td>
+        </tr>
+        <tr>
+            <td>6:49　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　塚口</font></td>
+            <td>7:23　六甲駅着</td>
+        </tr>
+        <tr>
+            <td>6:56　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　塚口</font></td>
+            <td>7:23　六甲駅着（六甲駅へは塚口で<span style="background-color:#ff0000"><span style="color:#fff">通勤特急</span></span>に乗車の上西宮北口で後の普通に乗り換え）</td>
+        </tr>
+        <tr>
+            <td>7:04　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　塚口</font></td>
+            <td>7:38　六甲駅着（六甲駅へは塚口で<span style="background-color:#000"><span style="color:#fff">普通</span></span>に乗り換え）</td>
+        </tr>
+        <tr>
+            <td>7:10　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　塚口</font></td>
+            <td>7:38　六甲駅着</td>
+        </tr>
+        <tr>
+            <td>7:16　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　塚口</font></td>
+            <td>7:45　六甲駅着（六甲駅へは塚口で<span style="background-color:#ff0000"><span style="color:#fff">通勤特急</span></span>に乗車の上西宮北口で始発の<span style="background-color:#000"><span style="color:#fff">普通</span></span>に乗り換え）</td>
+        </tr>
+        <tr>
+            <td>7:22　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　塚口</font></td>
+            <td>7:54　六甲駅着（六甲駅へは塚口で<span style="background-color:#000"><span style="color:#fff">普通</span></span>に乗り換え）</td>
+        </tr>
+        <tr>
+            <td>7:27　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　塚口</font></td>
+            <td>8:02　六甲駅着（六甲駅へは塚口で<span style="background-color:#ff0000"><span style="color:#fff">通勤特急</span></span>に乗車の上西宮北口で始発の<span style="background-color:#000"><span style="color:#fff">普通</span></span>に乗り換え）</td>
+        </tr>
+        <tr>
+            <td>7:34　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　塚口</font></td>
+            <td>8:02　六甲駅着（六甲駅へは塚口で<span style="background-color:#000"><span style="color:#fff">普通</span></span>に乗車の上西宮北口で始発の<span style="background-color:#000"><span style="color:#fff">普通</span></span>に乗り換え）</td>
+        </tr>
+        <tr>
+            <td>7:40　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　塚口</font></td>
+            <td>8:10　六甲駅着（六甲駅へは塚口で<span style="background-color:#000"><span style="color:#fff">普通</span></span>に乗り換え）</td>
+        </tr>
+        <tr>
+            <td>7:46　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　塚口</font></td>
+            <td>8:19　六甲駅着（六甲駅へは塚口で<span style="background-color:#000"><span style="color:#fff">普通</span></span>に乗り換え）</td>
+        </tr>
+        <tr>
+            <td>7:53　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　塚口</font></td>
+            <td>8:27　六甲駅着（六甲駅へは塚口で<span style="background-color:#000"><span style="color:#fff">普通</span></span>に乗り換え）</td>
+        </tr>
+        <tr>
+            <td>7:59　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　塚口</font></td>
+            <td>8:27　六甲駅着</td>
+        </tr>
+        <tr>
+            <td>8:07　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　塚口</font></td>
+            <td>8:34　六甲駅着</td>
+        </tr>
+    </body>
+</table>
+</html>
